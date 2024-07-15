@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+nav {
+  margin-top: 20px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  height: 80px;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(255, 0, 219, 1) 100%
+  );
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+li {
+  background-color: rgb(1, 1, 64);
+  padding: 10px;
+  border-radius: 10px;
+}
